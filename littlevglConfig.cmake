@@ -1,0 +1,1 @@
+include("${CMAKE_SYSROOT}/usr/lib/cmake/littlevgl/littlevgl.cmake")

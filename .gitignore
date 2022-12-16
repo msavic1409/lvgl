@@ -1,0 +1,27 @@
+# Build directory
+build-*
+cmake-build-*
+
+# IDE files
+.vscode
+.idea/
+
+# Temporary files in "updates"
+updates/**/*.zip
+updates/**/*.sig
+updates/gf_update
+updates/liblegiotherm.sym
+updates/firmware*.json
+updates/fsu_temp
+gfp-hycleen-sysimage-v*
+
+# BACnet built files
+libs/bacnetserver-stack/build
+libs/bacnetserver-stack/3rdparty/bacnet-stack-0.8.6/demo
+libs/bacnetserver-stack/3rdparty/bacnet-stack-0.8.6/src/*.o
+
+# CMake files
+CMakeLists.txt.user
+ 
+nohup.out
+
